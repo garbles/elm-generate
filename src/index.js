@@ -18,9 +18,9 @@ const help = `
     -o, --output   The output file location (default: parsed from module name)
 
   Examples
-    $ elm-generate MyModule -t html
-    $ elm-generate MyModule.MyUtil -t util -s farts
-    $ elm-generate MyModule.MyNativeUtil -t native
+    $ elm generate MyModule -t html
+    $ elm generate MyModule.MyUtil -t util -s farts
+    $ elm generate MyModule.MyNativeUtil -t native
 `
 
 const alias = {
