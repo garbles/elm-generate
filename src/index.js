@@ -10,7 +10,7 @@ const generateOutputPath = require('./lib/generateOutputPath')
 
 const help = `
   Usage
-    $ elm-generate <name>
+    $ elm generate <name>
 
   Options
     -t, --type     Type of module. Either html, util or native. (default: html)
