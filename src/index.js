@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const path = require('path')
 const meow = require('meow')
 const chalk = require('chalk')

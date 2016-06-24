@@ -26,7 +26,7 @@ type alias Flags =
   }
 
 
-init : Flags -> (Model, Cmd)
+init : Flags -> (Model, Cmd Msg)
 init flags =
   (Model flags.value, Cmd.none)
 

@@ -2,12 +2,12 @@
   "name": "elm-generate",
   "version": "0.0.2",
   "description": "Because Elm doesn't do code generation yet.",
-  "main": "./bin/index.js",
+  "main": "./bin/elm-generate.js",
   "bin": {
-    "elm-generate": "./bin/index.js"
+    "elm-generate": "./bin/elm-generate.js"
   },
   "scripts": {
-    "build": "rm -rf bin/* && cp -r src/templates bin/templates && babel src -d bin",
+    "build": "rm -rf lib/* && cp -r src/templates lib/templates && babel src -d lib",
     "lint": "standard src/*.js",
     "test": "mocha --compilers js:babel-register test/*.test.js"
   },
