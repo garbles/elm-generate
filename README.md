@@ -2,7 +2,7 @@
 
 ## Wat?
 
-Generates boilerplate code for Elm modules. Once Elm has support for macros (or something), then this library will probably be useless.
+Generates [boilerplate code](https://github.com/garbles/elm-generate/blob/master/src/templates/html.elm) for Elm modules. Once Elm has support for macros (or something), then this library will probably be useless.
 
 ## Installing
 
