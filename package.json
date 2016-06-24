@@ -1,0 +1,35 @@
+{
+  "name": "elm-generate",
+  "version": "0.0.0",
+  "description": "Because Elm doesn't do code generation yet.",
+  "main": "./bin/index.js",
+  "bin": {
+    "elm-generate": "./bin/index.js"
+  },
+  "scripts": {
+    "build": "rm -rf bin/* && cp -r src/templates bin/templates && babel src -d bin",
+    "lint": "standard src/*.js",
+    "test": "mocha --compilers js:babel-register test/*.test.js"
+  },
+  "author": "Gabe Scholz",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "1.1.3",
+    "lodash": "4.13.1",
+    "meow": "3.7.0",
+    "through2": "2.0.1",
+    "vinyl": "1.1.1",
+    "vinyl-fs": "2.4.3"
+  },
+  "devDependencies": {
+    "babel-cli": "6.10.1",
+    "babel-preset-es2015": "6.9.0",
+    "mocha": "2.5.3",
+    "standard": "7.1.2"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
