@@ -6,6 +6,10 @@
   "bin": {
     "elm-generate": "./bin/elm-generate.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garbles/elm-generate"
+  },
   "scripts": {
     "build": "rm -rf lib/* && cp -r src/templates lib/templates && babel src -d lib",
     "lint": "standard src/*.js",
