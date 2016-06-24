@@ -27,7 +27,7 @@ $ elm-generate --help
 
   Examples
     $ elm-generate MyModule -t html
-    $ elm-generate My.Deeply.Nested.Module -s src/My
+    $ elm-generate Deeply.Nested.Module -s src/My
     $ elm-generate MyModule.MyUtil -t util -o Farts.elm
     $ elm-generate MyModule.MyNativeUtil -t native
 ```
