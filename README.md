@@ -13,7 +13,7 @@ npm install elm-generate -g
 ## Using
 
 ```
-$ node bin/index.js --help
+$ elm-generate --help
 
   Because Elm doesn't do code generation yet.
 
