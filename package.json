@@ -1,6 +1,6 @@
 {
   "name": "elm-generate",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Because Elm doesn't do code generation yet.",
   "main": "./bin/elm-generate.js",
   "bin": {
